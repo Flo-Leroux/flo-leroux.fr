@@ -29,6 +29,8 @@
     <link rel="stylesheet" href="css/menu.css">
 
     <title>Accueil | Florian Leroux</title>
+
+    <!-- Test Github Synch -->
 </head>
     <body>
 
