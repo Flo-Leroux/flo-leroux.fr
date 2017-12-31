@@ -1,0 +1,26 @@
+
+<nav class="menu menu--valentine">
+    <div id="menu-background"></div>
+    <ul class="menu__list">       
+        <li class="menu__item menu__item--current"><a href="index.php" class="links menu__link">Accueil</a></li>        
+        <li class="menu__item"><a href="views/realisations.php" class="links menu__link">Mes réalisations</a></li>
+        <li class="menu__item"><a href="views/parcours.php" class="links menu__link">Mon parcours</a></li>
+        <li class="menu__item"><a href="views/contact.php" class="links menu__link">Me contacter</a></li>
+    </ul>
+    <div id="menu-burger">
+        <div onClick="javascript:burgerShow()"></div>
+    </div>
+</nav>
+
+<script>
+    function burgerShow() {
+        var value = $('#menu-background, .menu__list').css('display');
+
+        if(value=='none'){
+            $('#menu-background, .menu__list').css('display', 'block');
+        }
+        else {
+            $('#menu-background, .menu__list').css('display', 'none');
+        }
+    }
+</script>

@@ -1,0 +1,37 @@
+@keyframes loader_effect{
+    0%{z-index: -1; opacity: 0;}
+    6%{z-index: 0; opacity: 0.06;}
+    12%{z-index: 1; opacity: 0.12;}
+    18%{z-index: 2; opacity: 0.18;}
+    24%{z-index: 3; opacity: 0.24;}
+    30%{z-index: 4; opacity: 0.3;}
+    36%{z-index: 5; opacity: 0.36;}
+    42%{z-index: 6; opacity: 0.42;}
+    48%{z-index: 7; opacity: 0.48;}
+    54%{z-index: 8; opacity: 0.54;}
+    60%{z-index: 9; opacity: 0.6;}
+    66%{z-index: 10; opacity: 0.66;}
+    72%{z-index: 11; opacity: 0.72;}
+    78%{z-index: 12; opacity: 0.78;}
+    84%{z-index: 13; opacity: 0.84;}
+    90%{z-index: 14; opacity: 0.90;}
+    100%{z-index: 15; opacity: 1;}
+}
+
+@keyframes revealer_anim_in {
+    0% {    
+        top: 100vh;
+    }
+    100% {      
+        top: 0;
+    }
+}
+
+@keyframes revealer_anim_out {
+    0% {
+        top: 0;
+    }
+    100% {      
+        top: -100vh;
+    }
+}

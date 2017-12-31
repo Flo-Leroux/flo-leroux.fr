@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--color-title2);
+}
+
+.menu--valentine .menu__link {
+    color: white;
+}
+
+.menu--valentine .menu__item--current .menu__link {
+    color: rebeccapurple !important;
+}
+
+.menu--valentine .menu__item::before,
+.menu--valentine .menu__item::after,
+.menu--valentine .menu__link::before,
+.menu--valentine .menu__link::after {
+    background: rebeccapurple !important;
+}
+
+#rectangle {
+    width: 70vw;
+    height: 65vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border: 2px solid rebeccapurple;
+    /* background: white; */
+}
+
+#rectangle section {
+    width: 96%;
+    height: 92%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rebeccapurple;
+    box-sizing: border-box;
+    padding: 2.5% 5%;
+}
+
+#rectangle section h2 {
+    text-align: center;
+    color: white;
+    font-size: 275%;
+    margin-bottom: 2.5%;
+}
+
+#rectangle section div {
+    width: 80%;
+    height: 30%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background: transparent;
+}
+
+#rectangle section div label,
+#rectangle section div input,
+#rectangle section div textarea,
+#rectangle section div button {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+}
+
+#rectangle section div label {
+    color: var(--color-title2);
+    font-size: 200%;
+    text-align: left;
+    margin-bottom: 2.5%;
+}
+
+#rectangle section div input,
+#rectangle section div textarea {    
+    font-size: 185%;
+    padding-top: 2.5%;
+    padding-bottom: 0.5%;
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+#rectangle section div textarea {
+    max-height: 100%;
+}
+
+#rectangle section div button {
+    width: 25%;
+    margin-top: 2.5%;
+    margin-left: auto;
+    color: rebeccapurple;
+    background-color: var(--color-title2);
+    border-radius: 15px;
+    padding: 1%;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 800px) {
+    .menu--valentine .menu__item--current .menu__link {
+        color: var(--color-title2) !important;
+    }
+
+    .menu--valentine .menu__item::before,
+    .menu--valentine .menu__item::after,
+    .menu--valentine .menu__link::before,
+    .menu--valentine .menu__link::after {
+        background: var(--color-title2) !important;
+    }
+
+    #rectangle section h2 {
+        font-size: 250%;
+    }
+
+    #rectangle section div label {
+        font-size: 150%;
+        text-align: center;
+        margin-top: -10%;
+        margin-bottom: 15%;
+    }
+    
+    #rectangle section div input,
+    #rectangle section div textarea {    
+        font-size: 115%;
+    }
+
+    #rectangle section div button {
+        width: 50%;
+        margin-top: 20%;
+    }
+}
+
+
+
+

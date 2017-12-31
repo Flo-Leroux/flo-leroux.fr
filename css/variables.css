@@ -1,0 +1,29 @@
+:root {
+    --color-title1: rgb(255, 255, 255);
+    --color-title2: #d94f5c;
+    --color-title3: rgb(255, 255, 255);
+    --color-line: #d94f5c;
+	--color-text-hover: rgb(124, 124, 124);
+    --color-text-unselected: white;
+    --color-varBlack: rgb(24, 32, 32);
+}
+
+@font-face {
+    font-family: 'H-Display';
+    src: url('../assets/font/Homestead-Display.ttf');
+}
+
+@font-face {
+    font-family: 'H-One';
+    src: url('../assets/font/Homestead-One.ttf');
+}
+
+@font-face {
+    font-family: 'H-Two';
+    src: url('../assets/font/Homestead-Two.ttf');
+}
+
+@font-face {
+    font-family: 'H-Three';
+    src: url('../assets/font/Homestead-Three.ttf');
+}

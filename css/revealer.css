@@ -1,0 +1,53 @@
+
+canvas {
+    z-index: 1000 !important;
+}
+
+.revealer__layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    pointer-events: none;
+}
+
+.revealer_1 {
+    background-color: var(--color-varBlack);
+    z-index: 112;
+}
+
+.revealer_2 {
+    background-color: var(--color-title2);
+    z-index: 111;
+}
+
+.revealer_3 {
+    background-color: var(--color-title1);
+    z-index: 110;
+}
+
+.revealer_1.anim_in {
+    animation: 0.7s 0.5s revealer_anim_in ease-in-out forwards; 
+}
+
+.revealer_2.anim_in {
+    animation: 0.7s 0.25s revealer_anim_in ease-in-out forwards;     
+}
+
+.revealer_3.anim_in {
+    animation: 0.7s 0s revealer_anim_in ease-in-out forwards;     
+}
+
+.revealer_1.anim_out {
+    animation: 1s 0s revealer_anim_out ease-in-out forwards; 
+}
+
+.revealer_2.anim_out {
+    animation: 1s 0.5s revealer_anim_out ease-in-out forwards;     
+}
+
+.revealer_3.anim_out {
+    animation: 1s 1s revealer_anim_out ease-in-out forwards;     
+}
